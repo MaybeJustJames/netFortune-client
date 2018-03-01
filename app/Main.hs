@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+--import Lib
+import Server
 
 main :: IO ()
-main = printResponse
+main = serve
