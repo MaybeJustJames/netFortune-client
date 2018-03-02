@@ -7,6 +7,7 @@ import Data.Text
 import Control.Monad.IO.Class -- liftIO lives here
 import Snap
 import Lib
+import Test.Hspec
 
 -- | Application database pool, state, etc. can be added here
 data App = App {}
