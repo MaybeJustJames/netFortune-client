@@ -2,13 +2,15 @@
 
 module Server ( serve ) where
 
-import Control.Applicative
+import Data.Text
+import Control.Monad.IO.Class -- liftIO lives here
 import Snap
-import qualified System.Environment as E
+import Lib
 
 app :: Snap ()
 app = do
-    writeText "hello, i am a haskell fortune predicta, what are you?"
+    x <- liftIO $ getFortunePrediction -- liftIO unwraps IO monad
+    writeText . pack $ x -- writeText expects Text, x is a String, pack converts String to Text
 
 serve :: IO ()
 serve = do
