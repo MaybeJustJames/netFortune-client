@@ -42,7 +42,7 @@ packages:
 extra-deps:
 - heist-1.0.1.2
 - map-syntax-0.2.0.2
-- snap-1.1.0.0
+- snap-1.1
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
