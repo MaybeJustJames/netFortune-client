@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Client
 
 main :: IO ()
-main = printResponse
+main = netClient
