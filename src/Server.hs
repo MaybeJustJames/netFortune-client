@@ -2,15 +2,17 @@
 
 module Server ( serve ) where
 
-import Data.ByteString
-import Data.Text
-import Control.Monad.IO.Class -- liftIO lives here
-import Snap
-import Lib
-import Test.Hspec
+import           Control.Monad.IO.Class
+import           Data.ByteString
+import           Data.Text
+import           Lib
+import           Snap
+import           Test.Hspec
 
 -- | Application database pool, state, etc. can be added here
-data App = App {}
+data App = App
+  {
+  }
 
 -- | Application routes
 routes :: [(ByteString, Handler App App ())]
