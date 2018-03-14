@@ -6,11 +6,18 @@ A learning project to develop a networked "fortune" clone in Haskell.
 
 # Usage
 
-* run 
+* Have stack installed
+    ```
+    https://docs.haskellstack.org/en/stable/README/
+    ```
+* Run 
     ```
     $ stack build
     ```
     ```
     $ stack exec netFortune-exe
     ```
-* go to http://localhost:8080/fortune
+* Go to 
+    ```
+    http://localhost:8080/fortune
+    ```
