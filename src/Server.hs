@@ -1,13 +1,12 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Server ( serve ) where
+module Server ( serve, appInit, routes ) where
 
 import           Control.Monad.IO.Class
 import           Data.ByteString
 import           Data.Text
 import           Lib
 import           Snap
-import           Test.Hspec
 
 -- | Application database pool, state, etc. can be added here
 data App = App

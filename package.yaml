@@ -26,6 +26,7 @@ dependencies:
 - bytestring
 - snap
 - hspec
+- hspec-snap
 
 library:
   source-dirs: src
