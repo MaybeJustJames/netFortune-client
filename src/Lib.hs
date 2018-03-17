@@ -15,4 +15,4 @@ getFortunePrediction = do
         "If winter comes, can spring be far behind? It, surely, can.",
         "Your ability for accomplishment will follow with success. Maybe."
         ]
-    return x
+    return $ "Behold! " ++ x

@@ -12,6 +12,8 @@ tests = do
         describe "Application" $ do
             it "Has /fortune route" $ do
                 T.get "/fortune" >>= T.should200
+            it "Has response" $ do
+                T.get "/fortune" >>= T.shouldHaveText "Behold!"
 
 main :: IO()
 main = do
