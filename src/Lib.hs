@@ -25,7 +25,7 @@ getFortunePrediction = do
         "To be idle is to be foolish. Unless you are Buddha. Then it is pretty fucking smart.",
         "You will die alone and poorly dressed. Everyone dies alone, though. Try to be nicely dressed at least, ya bastard!",
         "You have got some shit on your face.",
-        "All predictions are wrong. Logical puzzle for you, mate.",
+        "All predictions are wrong. A logical puzzle for you, mate.",
         "Only listen to these predictions; disregard all other prediction generating units.",
         "Learn how to do something new today. Every day, actually! Or I will find you and you will have to learn dodging bullets.",
         "To achieve wisdom, you must first desire it. Unless you are wise as fuck by default.",
