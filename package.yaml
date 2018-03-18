@@ -27,6 +27,8 @@ dependencies:
 - snap
 - hspec
 - hspec-snap
+- hspec-core
+- snap-core
 
 library:
   source-dirs: src
